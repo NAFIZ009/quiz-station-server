@@ -193,10 +193,12 @@ app.get('/result/:email',async(req, res)=>{
 });
 
 //delete
-// app.delete('/resultd',async(req, res)=>{
-//   const x=await resultCollection.deleteMany({})
-//   res.send(x)
-// });
+app.delete('/user/delete',async(req, res)=>{
+    const email=req.query.email;
+    const filter={email};
+    const result=await userCollection.deleteOne(filter);
+    res.send(result);
+});
 
 //getting results individually
 app.get('/IndResult/:id',async(req, res)=>{
