@@ -1,0 +1,16 @@
+1. Its a Server For QUIZ STATION Web App
+2. It is made by express
+3. Tech Used here :- 
+        crud operations,
+        mongodb operations,
+        Jwt,
+        stripe payment
+4.It deploy on vercel
+
+-----------------------------------------------------------
+
+Live Server Link : https://quiz-station-server.vercel.app
+
+github : https://github.com/NAFIZ009/quiz-station-server.git
+
+Authors Linkedin : https://www.linkedin.com/in/jalal-ahmed-nafiz/
